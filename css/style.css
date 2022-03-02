@@ -188,3 +188,72 @@ body {
 }
 
 /*================================================*/
+
+/*===================skills=======================*/
+
+.skills {
+    margin-bottom: 150px;
+}
+.skills__title {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+.skills__title span {
+    color: #3730A3;
+}
+.skills__body {
+    display: flex;
+}
+
+.technologes {
+    padding: 45px 0px 45px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 132px 132px 132px;
+    gap: 68px;
+}
+
+.technologes__item {
+    max-width: 311px;
+}
+.technologes__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+.technologes__text {
+    margin-bottom: 20px;
+}
+.technologes__button {
+    position: relative;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3730A3;
+    
+}
+
+.technologes__button::after{
+    content: url("../img/arrow-right.svg");
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: -21px ;
+    transition: transform 0.3s ease 0.1s;
+} 
+
+.technologes__button:hover::after  {
+    transform: translate(3px,0);
+    
+}
+
+
+
+/*================================================*/
